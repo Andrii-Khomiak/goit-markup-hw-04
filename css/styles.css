@@ -487,7 +487,6 @@ span {
 .logo-footer {
 }
 .footer-social {
-  text-align: center;
 }
 .social-media-footer {
   font-weight: 500;
@@ -502,7 +501,6 @@ span {
   gap: 16px;
 }
 .footer-social-item {
-  display: flex;
 }
 .footer-social-link {
   display: flex;
