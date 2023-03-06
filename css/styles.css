@@ -427,18 +427,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #8e8f99;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 168px;
   height: 88px;
-  fill: grey;
 }
 .customers-link:is(:hover, :focus) {
-  fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
+  color: #404bbf;
+  border: 1px solid #404bbf;
 }
 .customers-icon {
-  fill: grey;
+  fill: currentColor;
 }
 
 /* ------------------footer------------- */
