@@ -363,11 +363,11 @@ body {
   height: 100%;
   border-radius: 50%;
   background-color: #4d5ae5;
-  color: red;
+  color: var(--accent-color);
 }
 .team-social-link:is(:hover, :focus) {
   background-color: #404bbf;
-  color: #ffffff;
+  color: #404bbf;
 }
 
 .team-social-icon {
