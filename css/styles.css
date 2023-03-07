@@ -175,8 +175,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
 }
-.ehro-container {
-}
+
 .hero-button {
   display: block;
   margin: 0 auto;
@@ -285,6 +284,7 @@ body {
 }
 /* --------------------секция 3 What are we doing-------------------- */
 .desktop {
+  padding-bottom: 120px;
 }
 .desktop-container {
   text-align: center;
@@ -412,8 +412,7 @@ body {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.container-customers {
-}
+
 .customers-list {
   display: flex;
   flex-wrap: wrap;
@@ -489,10 +488,7 @@ span {
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
-.logo-footer {
-}
-.footer-social {
-}
+
 .social-media-footer {
   font-weight: 500;
   font-size: 16px;
@@ -505,8 +501,7 @@ span {
   display: flex;
   gap: 16px;
 }
-.footer-social-item {
-}
+
 .footer-social-link {
   display: flex;
   justify-content: center;
@@ -516,11 +511,11 @@ span {
   height: 40px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  color: red;
+  color: rgba(255, 255, 255, 0.1);
 }
 .footer-social-link:is(:hover, :focus) {
   background-color: #404bbf;
-  color: #ffffff;
+  color: green;
 }
 .footer-social-icon {
   fill: currentColor;
@@ -530,8 +525,6 @@ span {
 .content {
   padding-bottom: 120px;
   padding-top: 120px;
-}
-.button-container {
 }
 
 .content-headline {
